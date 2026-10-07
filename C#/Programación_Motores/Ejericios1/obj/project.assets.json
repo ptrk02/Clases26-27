@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Clases26-27\\C#\\Programación_Motores\\Ejericios1\\C#.csproj",
-      "projectName": "C#",
-      "projectPath": "D:\\Clases26-27\\C#\\Programación_Motores\\Ejericios1\\C#.csproj",
+      "projectUniqueName": "d:\\Clases26-27\\C#\\Programación_Motores\\Ejericios1\\Proyecto1.csproj",
+      "projectName": "Proyecto1",
+      "projectPath": "d:\\Clases26-27\\C#\\Programación_Motores\\Ejericios1\\Proyecto1.csproj",
       "packagesPath": "C:\\Users\\AlumnoVD\\.nuget\\packages\\",
-      "outputPath": "D:\\Clases26-27\\C#\\Programación_Motores\\Ejericios1\\obj\\",
+      "outputPath": "d:\\Clases26-27\\C#\\Programación_Motores\\Ejericios1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

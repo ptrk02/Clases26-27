@@ -7,13 +7,13 @@
 //
 //
 //
-//  Ejercicios clase 05_10_26
+//  Ejercicios clase 07_10_26
 //
 using System;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
-    internal class Ejercicios1
+    internal class Ejericio2
     {
         static void Main(string[] args)
         {

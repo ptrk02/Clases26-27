@@ -1,0 +1,15 @@
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\bin\Debug\net10.0\Proyecto2.exe
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\bin\Debug\net10.0\Proyecto2.deps.json
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\bin\Debug\net10.0\Proyecto2.runtimeconfig.json
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\bin\Debug\net10.0\Proyecto2.dll
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\bin\Debug\net10.0\Proyecto2.pdb
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\obj\Debug\net10.0\Proyecto2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\obj\Debug\net10.0\Proyecto2.AssemblyInfoInputs.cache
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\obj\Debug\net10.0\Proyecto2.AssemblyInfo.cs
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\obj\Debug\net10.0\Proyecto2.csproj.CoreCompileInputs.cache
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\obj\Debug\net10.0\Proyecto2.sourcelink.json
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\obj\Debug\net10.0\Proyecto2.dll
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\obj\Debug\net10.0\refint\Proyecto2.dll
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\obj\Debug\net10.0\Proyecto2.pdb
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\obj\Debug\net10.0\Proyecto2.genruntimeconfig.cache
+D:\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\obj\Debug\net10.0\ref\Proyecto2.dll

@@ -13,7 +13,7 @@ using System;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
-    internal class Ejericio2
+    internal class Condiciones
     {
         static void Main(string[] args)
         {

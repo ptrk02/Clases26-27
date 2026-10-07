@@ -45,9 +45,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
             float arma2;
             
             Console.Write("Daño arma 1: ");
-            arma1 = Int32.Parse(Console.ReadLine());
+            arma1 = float.Parse(Console.ReadLine());
             Console.Write("Daño arma 2: ");
-            arma2 = Int32.Parse(Console.ReadLine());
+            arma2 = float.Parse(Console.ReadLine());
 
             if( arma1 >= arma2)
             {
@@ -74,11 +74,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
             float nota1, nota2, nota3;
 
             Console.Write("Primera nota: ");
-            nota1 = Int32.Parse(Console.ReadLine());
+            nota1 = float.Parse(Console.ReadLine());
             Console.Write("Segunda nota: ");
-            nota2 = Int32.Parse(Console.ReadLine());
+            nota2 = float.Parse(Console.ReadLine());
             Console.Write("Tercera nota: ");
-            nota3 = Int32.Parse(Console.ReadLine());
+            nota3 = float.Parse(Console.ReadLine());
 
             float sumaNotas = nota1 + nota2 + nota3;
             float mediaNotas = sumaNotas/3;
@@ -100,16 +100,18 @@ namespace MyApp // Note: actual namespace depends on the project name.
             float experiencia;
             
             Console.Write("Experiencia: ");
-            experiencia = Int32.Parse(Console.ReadLine());
+            experiencia = float.Parse(Console.ReadLine());
+
+            float restoExperiencia = experiencia / 10;
 
 
-            if(experiencia > 9)
+            if(restoExperiencia < 1)
             {
-                Console.Write("El nivel tiene dos dígitos");
+                Console.Write("Tu nivel tiene 1 dígito");
             }
             else
             {
-                Console.Write("El nivel tiene un dígito");
+                Console.Write("Tu nivel tiene 2 dígitos");
             }
 
         }

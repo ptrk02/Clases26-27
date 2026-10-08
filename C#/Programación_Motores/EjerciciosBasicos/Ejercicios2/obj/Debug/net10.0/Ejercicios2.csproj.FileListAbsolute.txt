@@ -1,0 +1,15 @@
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\bin\Debug\net10.0\Ejercicios2.exe
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\bin\Debug\net10.0\Ejercicios2.deps.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\bin\Debug\net10.0\Ejercicios2.runtimeconfig.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\bin\Debug\net10.0\Ejercicios2.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\bin\Debug\net10.0\Ejercicios2.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\obj\Debug\net10.0\Ejercicios2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\obj\Debug\net10.0\Ejercicios2.AssemblyInfoInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\obj\Debug\net10.0\Ejercicios2.AssemblyInfo.cs
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\obj\Debug\net10.0\Ejercicios2.csproj.CoreCompileInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\obj\Debug\net10.0\Ejercicios2.sourcelink.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\obj\Debug\net10.0\Ejercicios2.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\obj\Debug\net10.0\refint\Ejercicios2.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\obj\Debug\net10.0\Ejercicios2.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\obj\Debug\net10.0\Ejercicios2.genruntimeconfig.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejercicios2\obj\Debug\net10.0\ref\Ejercicios2.dll

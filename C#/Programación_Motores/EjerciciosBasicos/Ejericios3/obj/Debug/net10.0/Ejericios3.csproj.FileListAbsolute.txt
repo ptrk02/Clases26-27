@@ -1,0 +1,15 @@
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\bin\Debug\net10.0\Ejericios3.exe
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\bin\Debug\net10.0\Ejericios3.deps.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\bin\Debug\net10.0\Ejericios3.runtimeconfig.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\bin\Debug\net10.0\Ejericios3.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\bin\Debug\net10.0\Ejericios3.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\obj\Debug\net10.0\Ejericios3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\obj\Debug\net10.0\Ejericios3.AssemblyInfoInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\obj\Debug\net10.0\Ejericios3.AssemblyInfo.cs
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\obj\Debug\net10.0\Ejericios3.csproj.CoreCompileInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\obj\Debug\net10.0\Ejericios3.sourcelink.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\obj\Debug\net10.0\Ejericios3.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\obj\Debug\net10.0\refint\Ejericios3.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\obj\Debug\net10.0\Ejericios3.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\obj\Debug\net10.0\Ejericios3.genruntimeconfig.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjerciciosBasicos\Ejericios3\obj\Debug\net10.0\ref\Ejericios3.dll

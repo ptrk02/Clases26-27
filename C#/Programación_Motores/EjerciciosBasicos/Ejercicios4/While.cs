@@ -129,11 +129,61 @@ namespace Ejercicios4 // Note: actual namespace depends on the project name.
             // Realizar un programa que permita cargar los puntos de daño de dos equipos de 15 jugadores cada uno. Informar con un mensaje cuál de los dos equipos causó un daño total acumulado mayor (mensajes "Equipo 1 mayor", "Equipo 2 mayor", "Equipos iguales"). Ten en cuenta que puede haber dos o más estructuras repetitivas en un mismo algoritmo.
             //
 
+            int daño, jugadores = 15;
+            int dañoTotalEquipo1 = 0, dañoTotalEquipo2 = 0;
+
+            for(int i = 0; i < jugadores; i++)
+            {
+                Console.Write("Ingrese el daño del jugador " + (i + 1) + " del equipo 1: ");
+                daño = Int32.Parse(Console.ReadLine());
+                dañoTotalEquipo1 += daño;
+            }
+
+            for(int i = 0; i < jugadores; i++)
+            {
+                Console.Write("Ingrese el daño del jugador " + (i + 1) + " del equipo 2: ");
+                daño = Int32.Parse(Console.ReadLine());
+                dañoTotalEquipo2 += daño;
+            }
+
+            if (dañoTotalEquipo1 > dañoTotalEquipo2)
+            {
+                Console.WriteLine("Equipo 1 mayor");
+            }
+            else if (dañoTotalEquipo2 > dañoTotalEquipo1)
+            {
+                Console.WriteLine("Equipo 2 mayor");
+            }
+            else
+            {
+                Console.WriteLine("Equipos iguales");
+            }
+
             //
             // Ejercicio 7
             // Desarrollar un programa que permita cargar X monedas recogidas por el jugador (valores enteros) y luego informe cuántas tienen un valor par y cuántas impar. Emplear el operador "%" en la condición de la estructura condicional: if (valor % 2 == 0) //Si el if da verdadero, el valor es par.
             //
-            
+
+            int monedas, contPar = 0, contImpar = 0;
+            Console.Write("Ingrese la cantidad de monedas: ");
+            monedas = Int32.Parse(Console.ReadLine());
+
+            for (int i = 0; i < monedas; i++)
+            {
+                Console.Write("Ingrese el valor de la moneda " + (i + 1) + ": ");
+                int valor = Int32.Parse(Console.ReadLine());
+                if (valor % 2 == 0)
+                {
+                    contPar++;
+                }
+                else
+                {
+                    contImpar++;
+                }
+            }
+
+            Console.WriteLine("Monedas con valor par: " + contPar);
+            Console.WriteLine("Monedas con valor impar: " + contImpar);
         }
     }
 }

@@ -198,7 +198,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             {
                 Console.Write("El tercer golpe es el más fuerte");
             }
-            
+
             if(damage1 <= damage2 && damage1 <= damage3)
             {
                 Console.Write("El primer golpe es el más flojo");
@@ -217,11 +217,66 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //
             Console.WriteLine("Ejericicio 8");
 
+            int vida, vidaActual, daño;
+
+            Console.WriteLine("Cuanta vida tienes? ");
+            vida = int.Parse(Console.ReadLine() ?? "0");
+            Console.WriteLine("Cuanta vida tienes, luego del combate? ");
+            vidaActual = int.Parse(Console.ReadLine() ?? "0");
+
+            daño = vidaActual - vida;
+
+            if(vidaActual < vida)
+            {
+                Console.Write("Has recuperado vida ");
+            }
+            else if(vidaActual > vida)
+            {
+                Console.Write("Has sufrido daño por " + daño + " puntos.");
+            }
+            else
+            {
+                Console.Write("Tienes la misma vida");
+            }
+
             //
             // Ejercicio 9
             // Debemos calcular el éxito del jugador en un nivel de nuestro juego: cantidad total de objetivos que contiene el nivel, junto a la cantidad de objetivos que el jugador completó realmente. Se pide confeccionar un programa que ingrese los dos datos por teclado e informe del éxito del jugador, según el porcentaje de objetivos completados, y sabiendo que: Nivel superado (✩✩✩):	Porcentaje>=90%. Nivel superado (✩✩):		Porcentaje>=75% y <90%. Nivel superado (✩):		Porcentaje>=50% y <75%. Nivel no superado:		Porcentaje<50%.
             //
             Console.WriteLine("Ejericicio 9");
+
+            int cantidadNivel, cantidadCompletados;
+
+            Console.WriteLine("Cuantos objetivos tiene el nivel? ");
+            cantidadNivel = int.Parse(Console.ReadLine() ?? "0");
+            Console.WriteLine("Cuantos objetivos has completado? ");
+            cantidadCompletados = int.Parse(Console.ReadLine() ?? "0");
+
+            int r1 = cantidadNivel / cantidadCompletados;
+            int r2 = r1 * 10;
+
+            if(r2 >= 90)
+            {
+                Console.WriteLine("Nivel superado (✩✩✩)");
+            }
+            if(r2 >= 75 && r2 < 90)
+            {
+                Console.WriteLine("Nivel superado (✩✩)");
+            }
+            if(r2 >= 50 && r2 < 75)
+            {
+                Console.WriteLine("Nivel superado (✩)");
+            }
+            else if(r2 < 50)
+            {
+                Console.WriteLine("Nivel no superado");
+            }
+            else
+            {
+                Console.WriteLine("Error");
+            }
+
+
         }
     }
 }

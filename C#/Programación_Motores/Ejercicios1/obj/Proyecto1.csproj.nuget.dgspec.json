@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Clases26-27_Patryk\\C#\\Programación_Motores\\Ejercicios1\\Proyecto1.csproj": {}
+    "d:\\Clases26-27\\C#\\Programación_Motores\\Ejericios1\\Proyecto1.csproj": {}
   },
   "projects": {
-    "D:\\Clases26-27_Patryk\\C#\\Programación_Motores\\Ejercicios1\\Proyecto1.csproj": {
+    "d:\\Clases26-27\\C#\\Programación_Motores\\Ejericios1\\Proyecto1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Clases26-27_Patryk\\C#\\Programación_Motores\\Ejercicios1\\Proyecto1.csproj",
+        "projectUniqueName": "d:\\Clases26-27\\C#\\Programación_Motores\\Ejericios1\\Proyecto1.csproj",
         "projectName": "Proyecto1",
-        "projectPath": "D:\\Clases26-27_Patryk\\C#\\Programación_Motores\\Ejercicios1\\Proyecto1.csproj",
+        "projectPath": "d:\\Clases26-27\\C#\\Programación_Motores\\Ejericios1\\Proyecto1.csproj",
         "packagesPath": "C:\\Users\\AlumnoVD\\.nuget\\packages\\",
-        "outputPath": "D:\\Clases26-27_Patryk\\C#\\Programación_Motores\\Ejercicios1\\obj\\",
+        "outputPath": "d:\\Clases26-27\\C#\\Programación_Motores\\Ejericios1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

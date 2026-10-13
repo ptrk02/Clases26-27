@@ -7,7 +7,7 @@
 //
 //  EJERCICIOS 3A: WHILE INICIALES  
 //
-//  Ejercicios clase 12_10_26
+//  Ejercicios clase 08_10_26
 //
 using System;
 
@@ -21,7 +21,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejercicio 1
             // Haz un algoritmo que muestre 5 veces el mensaje de bienvenida de un NPC: "Bienvenido, aventurero."
             //
-            Console.WriteLine("Ejericicio 1");
 
             int i = 0;
             while (i < 5)
@@ -34,7 +33,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejercicio 2
             // Haz un algoritmo que pida al usuario un número y que muestre ese número de veces el mensaje de bienvenida del NPC: "Bienvenido, aventurero." 
             //
-            Console.WriteLine("Ejericicio 2");
 
             int numero;
             Console.WriteLine("Introduce un número:");
@@ -51,7 +49,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejercicio 3
             // Haz un algoritmo que muestre la cuenta atrás para el inicio de una partida, desde 5.
             //
-            Console.WriteLine("Ejericicio 3");
 
             int cuentaAtras = 5;
             while (cuentaAtras > 0)
@@ -64,7 +61,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejercicio 4
             // Haz un algoritmo que pida al usuario un número y que muestre la cuenta atrás para el inicio de la partida desde ese número. 
             //
-            Console.WriteLine("Ejericicio 4");
 
             Console.WriteLine("Introduce un número para la cuenta atrás:");
             cuentaAtras = Convert.ToInt32(Console.ReadLine());
@@ -84,7 +80,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejercicio 5
             // Haz un algoritmo que pida al usuario dos números, que representan la oleada inicial y la oleada final de enemigos (el 1º número siempre será menor que el 2º), y que muestre la cuenta desde la primera oleada hasta la última. 
             //
-            Console.WriteLine("Ejericicio 5");
 
             int oleadaInicial, oleadaFinal;
 
@@ -104,7 +99,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejercicio 6
             // Haz un algoritmo que pida al usuario dos números de oleada y que muestre la cuenta desde la oleada menor a la mayor. 
             //
-            Console.WriteLine("Ejericicio 6");
 
             int oleada1, oleada2;
             Console.Write("Introduce la primera oleada:");
@@ -133,7 +127,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejercicio 7
             // Haz un algoritmo que muestre la tabla de puntos por combo x5 (la tabla de multiplicar del 5).
             //
-            Console.WriteLine("Ejericicio 7");
 
             int tabla = 1;
             int multiplicador = 5;
@@ -147,7 +140,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejercicio 8
             // Haz un algoritmo que le pida al usuario un número y muestre la tabla de puntos por combo correspondiente a ese número. 
             //
-            Console.WriteLine("Ejericicio 8");
 
             Console.WriteLine("Introduce un número para mostrar su tabla de multiplicar:");
             int numeroTabla = Convert.ToInt32(Console.ReadLine());

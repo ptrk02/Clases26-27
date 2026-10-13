@@ -21,15 +21,16 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejercicio 1
             // Se cargan por teclado las puntuaciones de tres jugadores en una misma partida (las tres puntuaciones son distintas). Mostrar por pantalla cuál es el jugador ganador (el de mayor puntuación)
             //
+            Console.WriteLine("Ejericicio 1");
 
             int jugador1, jugador2, jugador3;
 
             Console.Write("Puntuación jugador 1: ");
-            jugador1 = Int32.Parse(Console.ReadLine());
+            jugador1 = Int32.Parse(Console.ReadLine()?? "0");
             Console.Write("Puntuación jugador 2: ");
-            jugador2 = Int32.Parse(Console.ReadLine());
+            jugador2 = Int32.Parse(Console.ReadLine()?? "0");
             Console.Write("Puntuación jugador 3: ");
-            jugador3 = Int32.Parse(Console.ReadLine());
+            jugador3 = Int32.Parse(Console.ReadLine()?? "0");
 
             if(jugador1 > jugador2 && jugador1 > jugador3)
             {
@@ -48,11 +49,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //  Ejericicio 2
             //  Se ingresa por teclado la variación de vida de un personaje tras un combate (un número entero que representa daño recibido o vida recuperada). Mostrar una leyenda que indique si la variación es positiva (recuperó vida), nula (sin cambios) o negativa (recibió daño). 
             //
+            Console.WriteLine("Ejericicio 2");
 
             float variacionVida;
 
             Console.Write("Daño recibido: ");
-            variacionVida = float.Parse(Console.ReadLine());
+            variacionVida = float.Parse(Console.ReadLine()?? "0");
 
             if(variacionVida > 0)
             {

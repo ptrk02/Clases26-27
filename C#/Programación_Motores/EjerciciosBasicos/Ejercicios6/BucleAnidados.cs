@@ -21,15 +21,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejercicio 1
             // Imprimir por pantalla una pirámide de asteriscos (resuélvelo con dos bucles) desde 1 hasta 6. 
             //
-
-
+            Console.WriteLine("Ejericicio 1");
 
             //
             // Ejercicio 2
             // Imprimir por pantalla las 10 tablas de multiplicar.
             //
-
-            
+            Console.WriteLine("Ejericicio 2");            
 
         }
     }

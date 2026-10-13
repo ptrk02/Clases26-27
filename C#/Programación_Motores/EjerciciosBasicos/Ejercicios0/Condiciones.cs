@@ -21,11 +21,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejercicio 1
             // Un jugador termina una mazmorra y consigue una cantidad de oro. Ingresar el oro obtenido por el jugador; si supera los 1200 de oro, mostrar un mensaje en pantalla indicando que debe pagar un impuesto al Tesoro del Reino. 
             //
+            Console.WriteLine("Ejericicio 1");
 
             float cantidadOro;
 
             Console.Write("Introduce la cantidad de oro: ");
-            cantidadOro = Int32.Parse(Console.ReadLine());
+            cantidadOro = Int32.Parse(Console.ReadLine()?? "0");
 
             if(cantidadOro >= 1200)
             {
@@ -40,14 +41,15 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejericio 2
             // Realizar un programa que lea por teclado el daño de dos armas distintas. Si el daño de la primera arma es mayor al de la segunda, informar la suma y la diferencia de daño entre ambas; en caso contrario, informar el producto y la división del daño de la primera respecto a la segunda.
             //
+            Console.WriteLine("Ejericicio 2");
 
             float arma1;
             float arma2;
             
             Console.Write("Daño arma 1: ");
-            arma1 = float.Parse(Console.ReadLine());
+            arma1 = float.Parse(Console.ReadLine()?? "0");
             Console.Write("Daño arma 2: ");
-            arma2 = float.Parse(Console.ReadLine());
+            arma2 = float.Parse(Console.ReadLine()?? "0");
 
             if( arma1 >= arma2)
             {
@@ -70,15 +72,16 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejericio 3
             // Se ingresan las puntuaciones obtenidas por un jugador en tres desafíos de un mismo nivel. Si el promedio de las tres puntuaciones es mayor o igual a cinco, mostrar un mensaje "Nivel superado".
             //
+            Console.WriteLine("Ejericicio 3");
 
             float nota1, nota2, nota3;
 
             Console.Write("Primera nota: ");
-            nota1 = float.Parse(Console.ReadLine());
+            nota1 = float.Parse(Console.ReadLine()?? "0");
             Console.Write("Segunda nota: ");
-            nota2 = float.Parse(Console.ReadLine());
+            nota2 = float.Parse(Console.ReadLine()?? "0");
             Console.Write("Tercera nota: ");
-            nota3 = float.Parse(Console.ReadLine());
+            nota3 = float.Parse(Console.ReadLine()?? "0");
 
             float sumaNotas = nota1 + nota2 + nota3;
             float mediaNotas = sumaNotas/3;
@@ -96,11 +99,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Ejericio 4
             // Se ingresa por teclado el nivel de experiencia de un personaje, un número positivo de uno o dos dígitos (1..99). Mostrar un mensaje indicando si el nivel tiene uno o dos dígitos. 
             //
+            Console.WriteLine("Ejericicio 4");
 
             float experiencia;
             
             Console.Write("Experiencia: ");
-            experiencia = float.Parse(Console.ReadLine());
+            experiencia = float.Parse(Console.ReadLine()?? "0");
 
             float restoExperiencia = experiencia / 10;
 

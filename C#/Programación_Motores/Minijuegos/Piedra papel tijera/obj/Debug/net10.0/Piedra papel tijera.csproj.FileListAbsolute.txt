@@ -1,0 +1,15 @@
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\bin\Debug\net10.0\Piedra papel tijera.exe
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\bin\Debug\net10.0\Piedra papel tijera.deps.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\bin\Debug\net10.0\Piedra papel tijera.runtimeconfig.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\bin\Debug\net10.0\Piedra papel tijera.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\bin\Debug\net10.0\Piedra papel tijera.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\obj\Debug\net10.0\Piedra papel tijera.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\obj\Debug\net10.0\Piedra papel tijera.AssemblyInfoInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\obj\Debug\net10.0\Piedra papel tijera.AssemblyInfo.cs
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\obj\Debug\net10.0\Piedra papel tijera.csproj.CoreCompileInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\obj\Debug\net10.0\Piedra papel tijera.sourcelink.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\obj\Debug\net10.0\Piedra papel tijera.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\obj\Debug\net10.0\refint\Piedra papel tijera.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\obj\Debug\net10.0\Piedra papel tijera.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\obj\Debug\net10.0\Piedra papel tijera.genruntimeconfig.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Piedra papel tijera\obj\Debug\net10.0\ref\Piedra papel tijera.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Adivinar numero/1.0.0": {
+        "runtime": {
+          "Adivinar numero.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Adivinar numero/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

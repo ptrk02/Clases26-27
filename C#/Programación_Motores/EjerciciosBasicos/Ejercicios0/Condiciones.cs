@@ -10,110 +10,99 @@
 //  Ejercicios clase 07_10_26
 //
 using System;
+//
+// Ejercicio 1
+// Un jugador termina una mazmorra y consigue una cantidad de oro. Ingresar el oro obtenido por el jugador; si supera los 1200 de oro, mostrar un mensaje en pantalla indicando que debe pagar un impuesto al Tesoro del Reino. 
+//
 
-namespace MyApp // Note: actual namespace depends on the project name.
+float cantidadOro;
+
+Console.Write("Introduce la cantidad de oro: ");
+cantidadOro = Int32.Parse(Console.ReadLine() ?? "0");
+
+if (cantidadOro >= 1200)
 {
-    internal class Condiciones
-    {
-        static void Main(string[] args)
-        {
-            //
-            // Ejercicio 1
-            // Un jugador termina una mazmorra y consigue una cantidad de oro. Ingresar el oro obtenido por el jugador; si supera los 1200 de oro, mostrar un mensaje en pantalla indicando que debe pagar un impuesto al Tesoro del Reino. 
-            //
+    Console.WriteLine("Debes pagar impuesto al Tesoro del Reino.");
+}
+else
+{
+    Console.WriteLine("No debes pagar impuesto al Tesoro del Reino.");
+}
 
-            float cantidadOro;
+//
+// Ejericio 2
+// Realizar un programa que lea por teclado el daño de dos armas distintas. Si el daño de la primera arma es mayor al de la segunda, informar la suma y la diferencia de daño entre ambas; en caso contrario, informar el producto y la división del daño de la primera respecto a la segunda.
+//
 
-            Console.Write("Introduce la cantidad de oro: ");
-            cantidadOro = Int32.Parse(Console.ReadLine());
+float arma1;
+float arma2;
 
-            if(cantidadOro >= 1200)
-            {
-                Console.WriteLine("Debes pagar impuesto al Tesoro del Reino.");
-            }
-            else
-            {
-                Console.WriteLine("No debes pagar impuesto al Tesoro del Reino.");
-            }
+Console.Write("Daño arma 1: ");
+arma1 = float.Parse(Console.ReadLine() ?? "0");
+Console.Write("Daño arma 2: ");
+arma2 = float.Parse(Console.ReadLine() ?? "0");
 
-            //
-            // Ejericio 2
-            // Realizar un programa que lea por teclado el daño de dos armas distintas. Si el daño de la primera arma es mayor al de la segunda, informar la suma y la diferencia de daño entre ambas; en caso contrario, informar el producto y la división del daño de la primera respecto a la segunda.
-            //
+if (arma1 >= arma2)
+{
+    float sumaDamage = arma1 + arma2;
+    float difDamage = arma1 - arma2;
 
-            float arma1;
-            float arma2;
-            
-            Console.Write("Daño arma 1: ");
-            arma1 = float.Parse(Console.ReadLine());
-            Console.Write("Daño arma 2: ");
-            arma2 = float.Parse(Console.ReadLine());
+    Console.WriteLine("La suma del daño es: " + sumaDamage);
+    Console.WriteLine("La diferencia del daño es: " + difDamage);
+}
+else
+{
+    float prodDamage = arma1 * arma2;
+    float divDamage = arma2 / arma2;
 
-            if( arma1 >= arma2)
-            {
-                float sumaDamage = arma1 + arma2;
-                float difDamage = arma1 - arma2;
+    Console.WriteLine("El producto del daño es: " + prodDamage);
+    Console.WriteLine("La division del daño es: " + divDamage);
+}
 
-                Console.WriteLine("La suma del daño es: " + sumaDamage);
-                Console.WriteLine("La diferencia del daño es: " + difDamage);
-            }
-            else
-            {
-                float prodDamage = arma1 * arma2;
-                float divDamage = arma2 / arma2;
+//
+// Ejericio 3
+// Se ingresan las puntuaciones obtenidas por un jugador en tres desafíos de un mismo nivel. Si el promedio de las tres puntuaciones es mayor o igual a cinco, mostrar un mensaje "Nivel superado".
+//
 
-                Console.WriteLine("El producto del daño es: " + prodDamage);
-                Console.WriteLine("La division del daño es: " + divDamage);
-            }
+float nota1, nota2, nota3;
 
-            //
-            // Ejericio 3
-            // Se ingresan las puntuaciones obtenidas por un jugador en tres desafíos de un mismo nivel. Si el promedio de las tres puntuaciones es mayor o igual a cinco, mostrar un mensaje "Nivel superado".
-            //
+Console.Write("Primera nota: ");
+nota1 = float.Parse(Console.ReadLine() ?? "0");
+Console.Write("Segunda nota: ");
+nota2 = float.Parse(Console.ReadLine() ?? "0");
+Console.Write("Tercera nota: ");
+nota3 = float.Parse(Console.ReadLine() ?? "0");
 
-            float nota1, nota2, nota3;
+float sumaNotas = nota1 + nota2 + nota3;
+float mediaNotas = sumaNotas / 3;
 
-            Console.Write("Primera nota: ");
-            nota1 = float.Parse(Console.ReadLine());
-            Console.Write("Segunda nota: ");
-            nota2 = float.Parse(Console.ReadLine());
-            Console.Write("Tercera nota: ");
-            nota3 = float.Parse(Console.ReadLine());
+if (mediaNotas >= 5)
+{
+    Console.WriteLine("Nivel superado.");
+}
+else
+{
+    Console.WriteLine("Nivel no superado.");
+}
 
-            float sumaNotas = nota1 + nota2 + nota3;
-            float mediaNotas = sumaNotas/3;
+//
+// Ejericio 4
+// Se ingresa por teclado el nivel de experiencia de un personaje, un número positivo de uno o dos dígitos (1..99). Mostrar un mensaje indicando si el nivel tiene uno o dos dígitos. 
+//
 
-            if(mediaNotas >= 5)
-            {
-                Console.WriteLine("Nivel superado.");
-            }
-            else
-            {
-                Console.WriteLine("Nivel no superado.");
-            }
+float experiencia;
 
-            //
-            // Ejericio 4
-            // Se ingresa por teclado el nivel de experiencia de un personaje, un número positivo de uno o dos dígitos (1..99). Mostrar un mensaje indicando si el nivel tiene uno o dos dígitos. 
-            //
+Console.Write("Experiencia: ");
+experiencia = float.Parse(Console.ReadLine() ?? "0");
 
-            float experiencia;
-            
-            Console.Write("Experiencia: ");
-            experiencia = float.Parse(Console.ReadLine());
-
-            float restoExperiencia = experiencia / 10;
+float restoExperiencia = experiencia / 10;
 
 
-            if(restoExperiencia < 1)
-            {
-                Console.Write("Tu nivel tiene 1 dígito");
-            }
-            else
-            {
-                Console.Write("Tu nivel tiene 2 dígitos");
-            }
-
-        }
-    }
+if (restoExperiencia < 1)
+{
+    Console.Write("Tu nivel tiene 1 dígito");
+}
+else
+{
+    Console.Write("Tu nivel tiene 2 dígitos");
 }

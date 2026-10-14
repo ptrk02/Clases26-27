@@ -7,7 +7,7 @@
 //
 //  EJERCICIOS 3C: BUCLE ANIDADOS
 //
-//  Ejercicios clase _10_26
+//  Ejercicios clase 13_10_26
 //
 using System;
 

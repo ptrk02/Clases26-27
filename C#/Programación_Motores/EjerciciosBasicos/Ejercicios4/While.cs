@@ -7,7 +7,7 @@
 //
 //  EJERCICIOS 3B: WHILE 
 //
-//  Ejercicios clase _10_26
+//  Ejercicios clase 13_10_26
 //
 using System;
 
@@ -28,7 +28,7 @@ namespace Ejercicios4 // Note: actual namespace depends on the project name.
             for(partidas = 0; partidas < 10; partidas++)
             {
                 Console.Write("Puntuación de la partida " + partidas);
-                puntuacion = Int32.Parse(Console.ReadLine());
+                puntuacion = Int32.Parse(Console.ReadLine() ?? "0");
 
                 if(puntuacion >= 7)
                 {
@@ -51,12 +51,12 @@ namespace Ejercicios4 // Note: actual namespace depends on the project name.
             int resisPromedio;
 
             Console.Write("Ingrese la cantidad de personajes: ");
-            personajes = Int32.Parse(Console.ReadLine());
+            personajes = Int32.Parse(Console.ReadLine() ?? "0");
 
             for(int i = 0; i < personajes; i++)
             {
                 Console.Write("Ingrese la resistencia del personaje " + (i + 1) + ": ");
-                resistencia = Int32.Parse(Console.ReadLine());
+                resistencia = Int32.Parse(Console.ReadLine() ?? "0");
                 resistenciaTotal += resistencia;
             }
             resisPromedio = resistenciaTotal / personajes;
@@ -72,12 +72,12 @@ namespace Ejercicios4 // Note: actual namespace depends on the project name.
             int contEntre100y300 = 0, contMayor300 = 0;
 
             Console.Write("Ingrese la cantidad de NPCs: ");
-            npc = Int32.Parse(Console.ReadLine());
+            npc = Int32.Parse(Console.ReadLine() ?? "0");
 
             for(int i = 0; i < npc; i++)
             {
                 Console.Write("Ingrese la recompensa del NPC " + (i + 1) + ": ");
-                recompensa = Int32.Parse(Console.ReadLine());
+                recompensa = Int32.Parse(Console.ReadLine() ?? "0");
                 totalOro += recompensa;
 
                 if(recompensa >= 100 && recompensa <= 300)
@@ -135,14 +135,14 @@ namespace Ejercicios4 // Note: actual namespace depends on the project name.
             for(int i = 0; i < jugadores; i++)
             {
                 Console.Write("Ingrese el daño del jugador " + (i + 1) + " del equipo 1: ");
-                daño = Int32.Parse(Console.ReadLine());
+                daño = Int32.Parse(Console.ReadLine() ?? "0");
                 dañoTotalEquipo1 += daño;
             }
 
             for(int i = 0; i < jugadores; i++)
             {
                 Console.Write("Ingrese el daño del jugador " + (i + 1) + " del equipo 2: ");
-                daño = Int32.Parse(Console.ReadLine());
+                daño = Int32.Parse(Console.ReadLine() ?? "0");
                 dañoTotalEquipo2 += daño;
             }
 
@@ -166,12 +166,12 @@ namespace Ejercicios4 // Note: actual namespace depends on the project name.
 
             int monedas, contPar = 0, contImpar = 0;
             Console.Write("Ingrese la cantidad de monedas: ");
-            monedas = Int32.Parse(Console.ReadLine());
+            monedas = Int32.Parse(Console.ReadLine() ?? "0");
 
             for (int i = 0; i < monedas; i++)
             {
                 Console.Write("Ingrese el valor de la moneda " + (i + 1) + ": ");
-                int valor = Int32.Parse(Console.ReadLine());
+                int valor = Int32.Parse(Console.ReadLine() ?? "0");
                 if (valor % 2 == 0)
                 {
                     contPar++;

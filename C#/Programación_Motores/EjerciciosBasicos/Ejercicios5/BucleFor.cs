@@ -7,7 +7,7 @@
 //
 //  EJERCICIOS 4: BUCLE FOR
 //
-//  Ejercicios clase _10_26
+//  Ejercicios clase 14_10_26
 //
 using System;
 

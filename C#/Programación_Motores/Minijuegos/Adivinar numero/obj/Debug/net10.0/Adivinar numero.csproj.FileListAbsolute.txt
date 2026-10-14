@@ -1,0 +1,15 @@
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\bin\Debug\net10.0\Adivinar numero.exe
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\bin\Debug\net10.0\Adivinar numero.deps.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\bin\Debug\net10.0\Adivinar numero.runtimeconfig.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\bin\Debug\net10.0\Adivinar numero.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\bin\Debug\net10.0\Adivinar numero.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\obj\Debug\net10.0\Adivinar numero.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\obj\Debug\net10.0\Adivinar numero.AssemblyInfoInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\obj\Debug\net10.0\Adivinar numero.AssemblyInfo.cs
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\obj\Debug\net10.0\Adivinar numero.csproj.CoreCompileInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\obj\Debug\net10.0\Adivinar numero.sourcelink.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\obj\Debug\net10.0\Adivinar numero.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\obj\Debug\net10.0\refint\Adivinar numero.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\obj\Debug\net10.0\Adivinar numero.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\obj\Debug\net10.0\Adivinar numero.genruntimeconfig.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Adivinar numero\obj\Debug\net10.0\ref\Adivinar numero.dll

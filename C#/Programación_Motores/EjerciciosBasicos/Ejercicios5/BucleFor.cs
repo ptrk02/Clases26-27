@@ -22,6 +22,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Desarrollar un programa que solicite la carga de 10 números e imprima la suma de los últimos 5 valores ingresados.
             //
 
+            
+
 
             //
             // Ejercicio 2

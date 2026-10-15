@@ -1,0 +1,15 @@
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\obj\Debug\net10.0\Ejercicios5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\obj\Debug\net10.0\Ejercicios5.AssemblyInfoInputs.cache
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\obj\Debug\net10.0\Ejercicios5.AssemblyInfo.cs
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\obj\Debug\net10.0\Ejercicios5.csproj.CoreCompileInputs.cache
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\obj\Debug\net10.0\Ejercicios5.sourcelink.json
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\bin\Debug\net10.0\Ejercicios5.exe
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\bin\Debug\net10.0\Ejercicios5.deps.json
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\bin\Debug\net10.0\Ejercicios5.runtimeconfig.json
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\bin\Debug\net10.0\Ejercicios5.dll
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\bin\Debug\net10.0\Ejercicios5.pdb
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\obj\Debug\net10.0\Ejercicios5.dll
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\obj\Debug\net10.0\refint\Ejercicios5.dll
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\obj\Debug\net10.0\Ejercicios5.pdb
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\obj\Debug\net10.0\Ejercicios5.genruntimeconfig.cache
+C:\Users\Patryk\Documents\GitHub\Repos\Clases26-27\C#\Programación_Motores\EjerciciosBasicos\Ejercicios5\obj\Debug\net10.0\ref\Ejercicios5.dll

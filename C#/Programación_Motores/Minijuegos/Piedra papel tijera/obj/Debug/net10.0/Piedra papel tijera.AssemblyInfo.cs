@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Piedra papel tijera")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c9f8f1ccb92972ec51fed879e4acccbc38335d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30b1f784a441c71b81ba2576d467c8f36fd51b2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Piedra papel tijera")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Piedra papel tijera")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

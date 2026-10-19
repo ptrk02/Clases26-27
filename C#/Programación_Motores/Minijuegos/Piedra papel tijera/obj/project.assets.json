@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Patryk\\.nuget\\packages\\": {}
+    "C:\\Users\\patri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Patryk\\Documents\\GitHub\\Repos\\Clases26-27\\C#\\Programación_Motores\\Minijuegos\\Piedra papel tijera\\Piedra papel tijera.csproj",
+      "projectUniqueName": "C:\\Users\\patri\\Documents\\GitHub\\Clases26-27\\C#\\Programación_Motores\\Minijuegos\\Piedra papel tijera\\Piedra papel tijera.csproj",
       "projectName": "Piedra papel tijera",
-      "projectPath": "C:\\Users\\Patryk\\Documents\\GitHub\\Repos\\Clases26-27\\C#\\Programación_Motores\\Minijuegos\\Piedra papel tijera\\Piedra papel tijera.csproj",
-      "packagesPath": "C:\\Users\\Patryk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Patryk\\Documents\\GitHub\\Repos\\Clases26-27\\C#\\Programación_Motores\\Minijuegos\\Piedra papel tijera\\obj\\",
+      "projectPath": "C:\\Users\\patri\\Documents\\GitHub\\Clases26-27\\C#\\Programación_Motores\\Minijuegos\\Piedra papel tijera\\Piedra papel tijera.csproj",
+      "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\patri\\Documents\\GitHub\\Clases26-27\\C#\\Programación_Motores\\Minijuegos\\Piedra papel tijera\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Patryk\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"

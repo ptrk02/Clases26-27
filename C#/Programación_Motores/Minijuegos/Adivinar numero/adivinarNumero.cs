@@ -1,4 +1,4 @@
-//Programacion y motores con Salva
+﻿//Programacion y motores con Salva
 //
 //
 //
@@ -36,7 +36,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             // Calculemos el numero secreto
             Random numeroAleatorio = new Random();
-            int numeroSecreto = numeroAleatorio.Next(1, numeroIntentos * 2);
+            int numeroSecreto = numeroAleatorio.Next(1, (numeroIntentos * 2)+1);
             
             // Aqui empezara la ronda, si no, terminará el programa
             while(numeroIntentos != 0)
@@ -62,6 +62,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                     {
                         Console.WriteLine();
                         Console.Write("Has introducido el mismo número dos veces consecutivas, <Muy mal>");
+                        Console.WriteLine("-----Partida finalizada-----");
                         Console.WriteLine();
                         return;
                     }

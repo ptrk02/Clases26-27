@@ -1,0 +1,15 @@
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\bin\Debug\net10.0\Black Jack.exe
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\bin\Debug\net10.0\Black Jack.deps.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\bin\Debug\net10.0\Black Jack.runtimeconfig.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\bin\Debug\net10.0\Black Jack.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\bin\Debug\net10.0\Black Jack.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\obj\Debug\net10.0\Black Jack.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\obj\Debug\net10.0\Black Jack.AssemblyInfoInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\obj\Debug\net10.0\Black Jack.AssemblyInfo.cs
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\obj\Debug\net10.0\Black Jack.csproj.CoreCompileInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\obj\Debug\net10.0\Black Jack.sourcelink.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\obj\Debug\net10.0\Black Jack.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\obj\Debug\net10.0\refint\Black Jack.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\obj\Debug\net10.0\Black Jack.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\obj\Debug\net10.0\Black Jack.genruntimeconfig.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\Minijuegos\Black Jack\obj\Debug\net10.0\ref\Black Jack.dll

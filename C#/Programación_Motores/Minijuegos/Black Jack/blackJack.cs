@@ -100,7 +100,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
                             if(opcionBonificador == 1)
                             {
-                                Console.WriteLine("Bonificador usado, tirada cambiado por 6");
+                                Console.WriteLine("Bonificador usado, tirada cambiada por 6");
                                 tiradaJugador = 6;
                             }
                             else

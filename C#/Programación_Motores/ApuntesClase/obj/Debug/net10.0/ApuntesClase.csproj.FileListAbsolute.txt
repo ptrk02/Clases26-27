@@ -1,0 +1,15 @@
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\bin\Debug\net10.0\ApuntesClase.exe
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\bin\Debug\net10.0\ApuntesClase.deps.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\bin\Debug\net10.0\ApuntesClase.runtimeconfig.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\bin\Debug\net10.0\ApuntesClase.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\bin\Debug\net10.0\ApuntesClase.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\obj\Debug\net10.0\ApuntesClase.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\obj\Debug\net10.0\ApuntesClase.AssemblyInfoInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\obj\Debug\net10.0\ApuntesClase.AssemblyInfo.cs
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\obj\Debug\net10.0\ApuntesClase.csproj.CoreCompileInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\obj\Debug\net10.0\ApuntesClase.sourcelink.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\obj\Debug\net10.0\ApuntesClase.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\obj\Debug\net10.0\refint\ApuntesClase.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\obj\Debug\net10.0\ApuntesClase.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\obj\Debug\net10.0\ApuntesClase.genruntimeconfig.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\ApuntesClase\obj\Debug\net10.0\ref\ApuntesClase.dll

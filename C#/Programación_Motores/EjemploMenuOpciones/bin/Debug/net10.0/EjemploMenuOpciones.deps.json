@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "EjemploMenuOpciones/1.0.0": {
+        "runtime": {
+          "EjemploMenuOpciones.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EjemploMenuOpciones/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

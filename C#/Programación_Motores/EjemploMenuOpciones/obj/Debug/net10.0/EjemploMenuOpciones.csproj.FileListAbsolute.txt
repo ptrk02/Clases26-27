@@ -1,0 +1,15 @@
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\bin\Debug\net10.0\EjemploMenuOpciones.exe
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\bin\Debug\net10.0\EjemploMenuOpciones.deps.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\bin\Debug\net10.0\EjemploMenuOpciones.runtimeconfig.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\bin\Debug\net10.0\EjemploMenuOpciones.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\bin\Debug\net10.0\EjemploMenuOpciones.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\obj\Debug\net10.0\EjemploMenuOpciones.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\obj\Debug\net10.0\EjemploMenuOpciones.AssemblyInfoInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\obj\Debug\net10.0\EjemploMenuOpciones.AssemblyInfo.cs
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\obj\Debug\net10.0\EjemploMenuOpciones.csproj.CoreCompileInputs.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\obj\Debug\net10.0\EjemploMenuOpciones.sourcelink.json
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\obj\Debug\net10.0\EjemploMenuOpciones.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\obj\Debug\net10.0\refint\EjemploMenuOpciones.dll
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\obj\Debug\net10.0\EjemploMenuOpciones.pdb
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\obj\Debug\net10.0\EjemploMenuOpciones.genruntimeconfig.cache
+D:\Clases26-27_Patryk\C#\Programación_Motores\EjemploMenuOpciones\obj\Debug\net10.0\ref\EjemploMenuOpciones.dll

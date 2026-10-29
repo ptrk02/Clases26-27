@@ -19,7 +19,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
         {
             int opcionIniciamos;
             int opcionTiramos = 0;
-            int opcionBonificador = 0;
+            int opcionBonificador;
             int numRonda = 1;
             int puntosIA = 0;
             int puntosJugador = 0;

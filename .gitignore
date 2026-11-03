@@ -1,0 +1,63 @@
+
+# ====================================
+# UNITY - TODOS LOS PROYECTOS
+# ====================================
+
+# Carpetas generadas por Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Compilaciones
+[Bb]uild/
+[Bb]uilds/
+
+# Visual Studio y Rider
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+
+# Ejecutables y paquetes exportados
+*.apk
+*.aab
+*.unitypackage
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.log
+sysinfo.txt
+mono_crash.*
+
+# Carpetas y archivos generados
+ExportedObj/
+.consulo/
+.gradle/
+.utmp/
+
+# Addressables - builds generadas
+[Aa]ssets/StreamingAssets/aa*
+[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Metadatos generados no esenciales
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta

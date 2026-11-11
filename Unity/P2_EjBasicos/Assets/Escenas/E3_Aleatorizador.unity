@@ -129,7 +129,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4687462277198626654, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.17
+      value: 0.18000002
       objectReference: {fileID: 0}
     - target: {fileID: 4687462277198626654, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -170,7 +170,7 @@ PrefabInstance:
     - target: {fileID: 5446339446666396605, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 10d5a4e2331fdb8428789e73acb4c468, type: 2}
+      objectReference: {fileID: 2100000, guid: c3a1325eb2d421a42916e7ae2d9cbc54, type: 2}
     - target: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_Name
       value: Boton (3)
@@ -178,7 +178,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 911933723}
   m_SourcePrefab: {fileID: 100100000, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
 --- !u!1 &138542617
 GameObject:
@@ -429,6 +432,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
+--- !u!1 &307250034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
+  m_PrefabInstance: {fileID: 1888321824}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &307250039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307250034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dfb771564726b04d92789c300829cf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResetearPosicionPadre
 --- !u!1 &391621857
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,7 +698,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4687462277198626654, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1582317
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 4687462277198626654, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -719,10 +739,14 @@ PrefabInstance:
     - target: {fileID: 5446339446666396605, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 5748854cd8db2114985de0e2a3c41365, type: 2}
+      objectReference: {fileID: 2100000, guid: e29657d8240e0654787bd776e2c27c31, type: 2}
     - target: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_Name
       value: Boton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -778,6 +802,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &911933718 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
+  m_PrefabInstance: {fileID: 86881288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &911933723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911933718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e50d2f6c7bacb64782a353737048679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovimientoAleatorio1_4
 --- !u!1001 &998302583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -788,7 +829,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4687462277198626654, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.82
+      value: -0.46999997
       objectReference: {fileID: 0}
     - target: {fileID: 4687462277198626654, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -829,15 +870,22 @@ PrefabInstance:
     - target: {fileID: 5446339446666396605, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e29657d8240e0654787bd776e2c27c31, type: 2}
+      objectReference: {fileID: 2100000, guid: 10d5a4e2331fdb8428789e73acb4c468, type: 2}
     - target: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_Name
       value: Boton (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1081816553}
   m_SourcePrefab: {fileID: 100100000, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
 --- !u!1 &1035167212
 GameObject:
@@ -876,6 +924,23 @@ Transform:
   - {fileID: 391621861}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1081816548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
+  m_PrefabInstance: {fileID: 998302583}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1081816553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081816548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 542efd1c9ccc4ca43b123443eeb6670d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovimientoAleatorio1
 --- !u!1 &1270816151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1335,7 +1400,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4687462277198626654, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.49
+      value: 0.84000003
       objectReference: {fileID: 0}
     - target: {fileID: 4687462277198626654, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1376,7 +1441,7 @@ PrefabInstance:
     - target: {fileID: 5446339446666396605, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c3a1325eb2d421a42916e7ae2d9cbc54, type: 2}
+      objectReference: {fileID: 2100000, guid: 5748854cd8db2114985de0e2a3c41365, type: 2}
     - target: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
       propertyPath: m_Name
       value: Boton (2)
@@ -1384,7 +1449,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5530459514705726632, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 307250039}
   m_SourcePrefab: {fileID: 100100000, guid: a01f9e18e3a0136469973524c91b074c, type: 3}
 --- !u!1 &2134034423
 GameObject:

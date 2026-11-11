@@ -677,7 +677,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6607568036928791960, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1917032419}
+      addedObject: {fileID: 1917032424}
     - targetCorrespondingSourceObject: {fileID: 1594847514806592331, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1113008683}
@@ -761,6 +761,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6607568036928791960, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2003131245}
     - targetCorrespondingSourceObject: {fileID: 483843071940480092, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1256981070}
@@ -824,7 +827,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6607568036928791960, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
   m_PrefabInstance: {fileID: 969385480}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1917032419
+--- !u!114 &1917032424
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -833,9 +836,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1917032414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18ed57d2ed3f0c84cab22eb6bbd948eb, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d83e21269ff20c468afdc8f6f15ce28, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ReseteaPosicion
+  m_EditorClassIdentifier: Assembly-CSharp::ResetearPosicion
+--- !u!1 &2003131235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6607568036928791960, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
+  m_PrefabInstance: {fileID: 1112552451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2003131245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003131235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db12cc19e9d884cb505f13adba5ccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ActivarDesactivar
 --- !u!1 &2144948978
 GameObject:
   m_ObjectHideFlags: 0

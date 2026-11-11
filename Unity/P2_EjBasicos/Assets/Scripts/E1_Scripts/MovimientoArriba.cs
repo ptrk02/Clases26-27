@@ -5,7 +5,7 @@
 //
 //
 // 09/11/2026
-// La cruceta blanca mueve la esfera 1 unidad en la dirección del botón
+// La cruceta blanca mueve la esfera 1 unidad en la dirección del botón (haz solo arriba e izquierda)
 //
 //
 using UnityEngine;
@@ -16,18 +16,12 @@ public class MovimientoArriba: MonoBehaviour
 
     void Start()
     {
-        bola = GameObject.Find("Bola");
-    }
-
-    void Update()
-    {
-        
+        bola = GameObject.Find("Bola"); // Busca por nombre GameObject en Hierarchy
     }
 
     void OnMouseDown()
     {
-        Debug.Log("Clic");
-
+        // Creamos variables locales de position
         float posX = bola.transform.position.x;
         float posY = bola.transform.position.y;
         float posZ = bola.transform.position.z;
@@ -37,7 +31,7 @@ public class MovimientoArriba: MonoBehaviour
             posY = 1.5f;
         }
 
-        bola.transform.position = new Vector3(posX, posY +1, posZ);
+        bola.transform.position = new Vector3(posX, posY +1, posZ); // Asignamos los componentes de position a bola
     }
 }
 

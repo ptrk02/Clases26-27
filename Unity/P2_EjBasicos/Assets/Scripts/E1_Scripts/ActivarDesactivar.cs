@@ -5,7 +5,7 @@
 //
 //
 // 09/11/2026
-// La cruceta blanca mueve la esfera 1 unidad en la dirección del botón
+// El cuadrado negro lo activa y desactiva.
 //
 //
 using UnityEngine;
@@ -19,16 +19,9 @@ public class ActivarDesactivar: MonoBehaviour
         bola = GameObject.Find("Bola");
     }
 
-    void Update()
-    {
-        
-    }
-
     void OnMouseDown()
     {
-        Debug.Log("Clic");
-
-        bola.transform.position = new Vector3(0, 1, 0);
+        bola.SetActive(!bola.activeSelf); // Asignamos la inversa del parámetro que devuelve el metodo activeSelf de bola. activeSelf es un método que comprueba si un objeto está activo en la escena.
     }
 }
 

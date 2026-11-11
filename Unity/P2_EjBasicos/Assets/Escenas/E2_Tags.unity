@@ -194,7 +194,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 483843071940480092, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1540631388}
   m_SourcePrefab: {fileID: 100100000, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
 --- !u!1 &123151370
 GameObject:
@@ -208,6 +211,7 @@ GameObject:
   - component: {fileID: 123151373}
   - component: {fileID: 123151372}
   - component: {fileID: 123151371}
+  - component: {fileID: 123151375}
   m_Layer: 0
   m_Name: Boton Azul
   m_TagString: Untagged
@@ -308,6 +312,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &123151375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123151370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0e4565405013b4aaaa2b7710d361dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DesactivarTag
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,13 +552,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.26345047, y: -0.121167116, z: 0.03337498, w: 0.95645106}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 30.8, y: -14.44, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,12 +730,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2144948982}
   - {fileID: 1815423814}
   - {fileID: 1822381032}
   - {fileID: 620762724}
   - {fileID: 1247474163}
   - {fileID: 768978927}
+  - {fileID: 2144948982}
   - {fileID: 833560356}
   - {fileID: 623465346}
   - {fileID: 1194593158}
@@ -742,7 +758,7 @@ GameObject:
   - component: {fileID: 610730042}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Cubo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -854,7 +870,7 @@ GameObject:
   - component: {fileID: 620762725}
   m_Layer: 0
   m_Name: Sphere (3)
-  m_TagString: Untagged
+  m_TagString: Esfera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -966,7 +982,7 @@ GameObject:
   - component: {fileID: 623465347}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Cubo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1139,7 +1155,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3055922610610468390, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1297663203}
   m_SourcePrefab: {fileID: 100100000, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
 --- !u!1 &768978926
 GameObject:
@@ -1155,7 +1174,7 @@ GameObject:
   - component: {fileID: 768978928}
   m_Layer: 0
   m_Name: Sphere (5)
-  m_TagString: Untagged
+  m_TagString: Esfera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1267,7 +1286,7 @@ GameObject:
   - component: {fileID: 830776015}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: Cubo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1428,7 +1447,7 @@ GameObject:
   - component: {fileID: 833560357}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Cubo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1538,6 +1557,7 @@ GameObject:
   - component: {fileID: 1123897366}
   - component: {fileID: 1123897365}
   - component: {fileID: 1123897364}
+  - component: {fileID: 1123897368}
   m_Layer: 0
   m_Name: Boton Verde
   m_TagString: Untagged
@@ -1638,6 +1658,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1123897368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123897363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d328a478b9f3f40a891b6905849c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ActivarTag
 --- !u!1 &1194593157
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,7 +1684,7 @@ GameObject:
   - component: {fileID: 1194593159}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Cubo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1764,7 +1796,7 @@ GameObject:
   - component: {fileID: 1247474164}
   m_Layer: 0
   m_Name: Sphere (4)
-  m_TagString: Untagged
+  m_TagString: Esfera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1876,7 +1908,7 @@ GameObject:
   - component: {fileID: 1288030031}
   m_Layer: 0
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: Cubo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1974,6 +2006,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288030029}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1297663201 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3055922610610468390, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
+  m_PrefabInstance: {fileID: 767164632}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1297663203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297663201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce3736d5b1b54274aab66138dcd75441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovimientoArribaFlag
 --- !u!1 &1416311058
 GameObject:
   m_ObjectHideFlags: 0
@@ -1986,6 +2035,7 @@ GameObject:
   - component: {fileID: 1416311061}
   - component: {fileID: 1416311060}
   - component: {fileID: 1416311059}
+  - component: {fileID: 1416311063}
   m_Layer: 0
   m_Name: Boton Blanco
   m_TagString: Untagged
@@ -2086,6 +2136,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1416311063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416311058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 162c0364bc35ab540ab98f977a0ce5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorAleatorioFlag
+--- !u!1 &1540631383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 483843071940480092, guid: c4736e1d3bc06cb45a0532388540b4cd, type: 3}
+  m_PrefabInstance: {fileID: 44231319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1540631388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540631383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881d041e1b74dec45be6a421f22d4161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovimientoDerechaFlag
 --- !u!1 &1815423813
 GameObject:
   m_ObjectHideFlags: 0
@@ -2100,7 +2179,7 @@ GameObject:
   - component: {fileID: 1815423815}
   m_Layer: 0
   m_Name: Sphere (1)
-  m_TagString: Untagged
+  m_TagString: Esfera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2212,7 +2291,7 @@ GameObject:
   - component: {fileID: 1822381033}
   m_Layer: 0
   m_Name: Sphere (2)
-  m_TagString: Untagged
+  m_TagString: Esfera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2322,6 +2401,7 @@ GameObject:
   - component: {fileID: 1904054867}
   - component: {fileID: 1904054866}
   - component: {fileID: 1904054865}
+  - component: {fileID: 1904054869}
   m_Layer: 0
   m_Name: Boton Rojo
   m_TagString: Untagged
@@ -2422,6 +2502,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1904054869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904054864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d31b36dc2951924cb43b36dec10b721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ReseteaPosicionFlag
 --- !u!1 &2144948978
 GameObject:
   m_ObjectHideFlags: 0
@@ -2435,8 +2527,8 @@ GameObject:
   - component: {fileID: 2144948980}
   - component: {fileID: 2144948979}
   m_Layer: 0
-  m_Name: Sphere
-  m_TagString: Untagged
+  m_Name: Sphere (6)
+  m_TagString: Esfera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

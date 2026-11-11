@@ -14,10 +14,11 @@ public class DesactivarTag: MonoBehaviour
 {
     void OnMouseDown()
     {
-        foreach (GameObject bola in GameObject.FindGameObjectsWithTag("Esfera")) // Recorro todos los GamObjects con Tag "Esfera"
+        // Recorro todos los GamObjects con Tag "Esfera"
+        foreach (GameObject bola in GameObject.FindGameObjectsWithTag("Esfera"))
         {
-            bola.SetActive(false); // Los asigno como inactivos en la escena
+            // Los asigno como inactivos en la escena
+            bola.SetActive(false);
         }
     }
 }
-

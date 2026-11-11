@@ -16,15 +16,17 @@ public class ColorAleatorioTag: MonoBehaviour
 
     void Start()
     {
-        bolas = GameObject.FindGameObjectsWithTag("Esfera"); // Ponemos los GameObjects con la misma tag en una array
+        // Ponemos los GameObjects con la misma tag en una array
+        bolas = GameObject.FindGameObjectsWithTag("Esfera");
     }
 
     void OnMouseDown()
     {
-        foreach (GameObject bola in bolas) // Recorro todos los GamObjects con Tag "Esfera"
+        // Recorro todos los GamObjects con Tag "Esfera"
+        foreach (GameObject bola in bolas)
         {
-            bola.GetComponent<Renderer>().material.color = Random.ColorHSV(); // Suponiendo que cada GameObject de la array tiene un Renderer
+            // Suponiendo que cada GameObject de la array tiene un Renderer
+            bola.GetComponent<Renderer>().material.color = Random.ColorHSV();
         }
     }
 }
-

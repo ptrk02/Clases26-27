@@ -5,7 +5,8 @@
 //
 //
 // 09/11/2026
-// La cruceta verde mueve la esfera 3 unidades en la dirección del botón (haz solo abajo y derecha).
+// La cruceta verde mueve la esfera 3 unidades en la
+// dirección del botón (haz solo abajo y derecha).
 //
 //
 using UnityEngine;
@@ -16,7 +17,8 @@ public class MovimientoDerecha: MonoBehaviour
 
     void Start()
     {
-        bola = GameObject.Find("Bola"); // Busca por nombre GameObject en Hierarchy
+        // Busca por nombre GameObject en Hierarchy
+        bola = GameObject.Find("Bola");
     }
 
     void OnMouseDown()
@@ -34,4 +36,3 @@ public class MovimientoDerecha: MonoBehaviour
         bola.transform.position = new Vector3(posX +3, posY, posZ);
     }
 }
-

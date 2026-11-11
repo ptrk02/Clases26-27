@@ -16,12 +16,13 @@ public class ResetearPosicion: MonoBehaviour
 
     void Start()
     {
-        bola = GameObject.Find("Bola"); // Busca por nombre GameObject en Hierarchy
+        // Busca por nombre GameObject en Hierarchy
+        bola = GameObject.Find("Bola");
     }
 
     void OnMouseDown()
     {
-        bola.transform.position = new Vector3(0, 1, 0); // Asignamos nuevo vector a posicion actual
+        // Asignamos nuevo vector a posicion actual
+        bola.transform.position = new Vector3(0, 1, 0);
     }
 }
-

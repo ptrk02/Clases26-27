@@ -16,15 +16,17 @@ public class ActivarTag: MonoBehaviour
 
     void Start()
     {
-        bolas = GameObject.FindGameObjectsWithTag("Esfera"); // Ponemos los GameObjects con la misma tag en una array
+        // Ponemos los GameObjects con la misma tag en una array
+        bolas = GameObject.FindGameObjectsWithTag("Esfera");
     }
 
     void OnMouseDown()
     {
-        foreach (GameObject bola in bolas) // Recorro todos los GamObjects con Tag "Esfera"
+        // Recorro todos los GamObjects con Tag "Esfera"
+        foreach (GameObject bola in bolas)
         {
-            bola.SetActive(true); // Los asigno como activos en la escena
+            // Los asigno como activos en la escena
+            bola.SetActive(true);
         }
     }
 }
-

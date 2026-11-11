@@ -5,7 +5,8 @@
 //
 //
 // 10/11/2026
-// El segundo mueve X unidades en alguna dirección aleatoria a cada uno de los hijos. La X es una valor aleatorio entre 1 y 4.
+// El segundo mueve X unidades en alguna dirección aleatoria a cada uno
+// de los hijos. La X es una valor aleatorio entre 1 y 4.
 //
 //
 using UnityEngine;
@@ -21,11 +22,15 @@ public class MovimientoAleatorio1_4 : MonoBehaviour
 
     void OnMouseDown()
     {
-        foreach (Transform hijo in contenedor.transform) //  recorre todos los hijos directos del padre
+        // Recorre todos los hijos directos del padre
+        foreach (Transform hijo in contenedor.transform)
         {
-            Vector3 direccion = Random.onUnitSphere * Random.Range(1f, 5f); // genera una dirección aleatoria en 3D con longitud exactamente 1, luego multiplica su valor por número aleatrorio; 1 entre 4
+            // Genera una dirección aleatoria en 3D con longitud exactamente 1,
+            // luego multiplica su valor por número aleatrorio; 1 entre 4.
+            Vector3 direccion = Random.onUnitSphere * Random.Range(1f, 5f);
 
-            hijo.position += direccion; // desplaza cada objeto una unidad desde su posición actual
+            // desplaza cada objeto una unidad desde su posición actual
+            hijo.position += direccion;
         }
     }
 }

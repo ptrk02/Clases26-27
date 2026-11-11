@@ -6,7 +6,7 @@
 //
 // 10/11/2026
 // Un cuadrado rojo resetea todos los cubos y esferas a su posición inicial.
-// PD: Recorremos varios tags duplicando código, habrían mejores maneras de hacerlo p.ejemplo usando Dictionary.
+// PD: Recorremos varios tags duplicando código, habrían mejores maneras de hacerlo.
 //
 
 using UnityEngine;
@@ -52,5 +52,3 @@ public class ReseteaPosicionTag : MonoBehaviour
         }
     }
 }
-
-

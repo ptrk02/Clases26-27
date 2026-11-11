@@ -5,7 +5,8 @@
 //
 //
 // 09/11/2026
-// La cruceta blanca mueve la esfera 1 unidad en la dirección del botón (haz solo arriba e izquierda)
+// La cruceta blanca mueve la esfera 1 unidad en la dirección del botón
+// (haz solo arriba e izquierda)
 //
 //
 using UnityEngine;
@@ -34,4 +35,3 @@ public class MovimientoIzquierda: MonoBehaviour
         bola.transform.position = new Vector3(posX -1, posY, posZ);
     }
 }
-

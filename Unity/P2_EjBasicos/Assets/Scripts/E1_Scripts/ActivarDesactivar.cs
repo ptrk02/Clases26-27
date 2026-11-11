@@ -21,7 +21,8 @@ public class ActivarDesactivar: MonoBehaviour
 
     void OnMouseDown()
     {
-        bola.SetActive(!bola.activeSelf); // Asignamos la inversa del parámetro que devuelve el metodo activeSelf de bola. activeSelf es un método que comprueba si un objeto está activo en la escena.
+        // Asignamos la inversa del parámetro que devuelve el metodo activeSelf de bola. 
+        // activeSelf es un método que comprueba si un objeto está activo en la escena.
+        bola.SetActive(!bola.activeSelf);
     }
 }
-

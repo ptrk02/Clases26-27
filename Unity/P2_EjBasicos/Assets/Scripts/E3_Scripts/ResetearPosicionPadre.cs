@@ -20,12 +20,14 @@ public class ResetearPosicionPadre: MonoBehaviour
     {
         contenedor = GameObject.Find("PadreVacio");
 
-        int cantidadHijos = contenedor.transform.childCount; // Obtener cantidad de hijos usando childCount
+        // Obtener cantidad de hijos usando childCount
+        int cantidadHijos = contenedor.transform.childCount;
 
         hijos = new Transform[cantidadHijos];
         posicionesIniciales = new Vector3[cantidadHijos];
 
-        for (int i = 0; i < cantidadHijos; i++) // Guardar los hijos y sus posiciones iniciales
+        // Guardar los hijos y sus posiciones iniciales
+        for (int i = 0; i < cantidadHijos; i++)
         {
             hijos[i] = contenedor.transform.GetChild(i);
             posicionesIniciales[i] = hijos[i].position;
@@ -36,8 +38,8 @@ public class ResetearPosicionPadre: MonoBehaviour
     {
         for (int i = 0; i < hijos.Length; i++)
         {
-            hijos[i].position = posicionesIniciales[i]; // Restaurar la posición de cada hijo
+            // Restaurar la posición de cada hijo
+            hijos[i].position = posicionesIniciales[i];
         }
     }
 }
-

@@ -5,7 +5,8 @@
 //
 //
 // 11/11/2026
-// El segundo destruye todas las monedas que haya en la escena en ese momento.
+// El segundo destruye todas las monedas que haya
+// en la escena en ese momento.
 //
 //
 using UnityEngine;
@@ -23,7 +24,8 @@ public class BorraInstancias : MonoBehaviour
     {
         foreach (Transform moneda in contenedor.transform)
         {
-            Destroy(moneda.gameObject); // Destroy() borra del hierarchy el objeto (solo en Play Mode)
+            // Destroy() borra del hierarchy el objeto (solo en Play Mode)
+            Destroy(moneda.gameObject);
         }
     }
 }

@@ -5,7 +5,8 @@
 //
 //
 // 11/11/2026
-// El primero (verde) genera una esfera con el TAG enemigo en una posición aleatoria dentro del área. Cada pulsación genera una esfera.
+// El primero (verde) genera una esfera con el TAG enemigo en una posición aleatoria
+// dentro del área. Cada pulsación genera una esfera.
 //
 //
 using UnityEngine;
@@ -31,9 +32,11 @@ public class SpawnerEnemigosTag : MonoBehaviour
 
     void OnMouseDown()
     {
-        int cantidadEnemigos = GameObject.FindGameObjectsWithTag("Enemigo").Length; // Compruebo la cantidad de enemigos
+        // Compruebo la cantidad de enemigos
+        int cantidadEnemigos = GameObject.FindGameObjectsWithTag("Enemigo").Length;
 
-        if (cantidadEnemigos >= maxEnemigos) // Si se cumple la condición no hace más de maxEnemigos
+        // Si se cumple la condición no hace más de maxEnemigos
+        if (cantidadEnemigos >= maxEnemigos)
         {
             Debug.Log("Se ha alcanzado el máximo de "+ maxEnemigos + " enemigos.");
             return;
@@ -43,8 +46,10 @@ public class SpawnerEnemigosTag : MonoBehaviour
         float posX = Random.Range(minX, maxX);
         float posZ = Random.Range(minZ, maxZ);
 
-        Vector3 posicion = new Vector3(posX, 0.17f, posZ); // Asigna posicion aleatoria
-
-        Instantiate(prefabEnemigo, posicion, Quaternion.identity, contenedor.transform); // Instancia enemigos dentro de un padre
+        // Asigna posicion aleatoria
+        Vector3 posicion = new Vector3(posX, 0.17f, posZ);
+        
+        // Instancia enemigos dentro de un padre
+        Instantiate(prefabEnemigo, posicion, Quaternion.identity, contenedor.transform);
     }
 }

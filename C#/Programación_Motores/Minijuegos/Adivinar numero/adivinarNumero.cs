@@ -10,6 +10,7 @@
 //  Ejercicios clase 19_10_26
 //
 using System;
+using System.Diagnostics;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -29,6 +30,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("Pista: El número que pienso ronda entre uno y el doble del siguiente que introduzcas.");
             Console.WriteLine();
 
+            bool intentosCorrecto = false;
+
             // EXTRA llamar a funcion pedir intentos
             int numeroIntentos = PedirIntetos();
 
@@ -36,10 +39,18 @@ namespace MyApp // Note: actual namespace depends on the project name.
             int numeroTemporal = 0;
 
             // Comprobemos correctamente que iniciamos la partida
-            while (numeroIntentos <= 0)
+            while (intentosCorrecto == false)
             {
-                Console.WriteLine("Error introduciendo cifra, intentalo otra vez.");
-                PedirIntetos();
+                if (numeroIntentos > 0)
+                {
+                    intentosCorrecto = true;
+                }
+                if (numeroIntentos <= 0)
+                {
+                    Console.WriteLine("Error introduciendo cifra, intentalo otra vez.");
+                    Console.Write("Cuantos intentos vas a querer tener: ");
+                    numeroIntentos = int.Parse(Console.ReadLine() ?? "0");
+                }                
             }
 
             // Calculemos el numero secreto
@@ -47,12 +58,19 @@ namespace MyApp // Note: actual namespace depends on the project name.
             int numeroSecreto = numeroAleatorio.Next(1, (numeroIntentos * 2)+1);
             
             // Aqui empezara la ronda, si no, terminará el programa
-            while(numeroIntentos != 0)
+            while(intentosCorrecto == true)
             {
                 Console.WriteLine("---------------");
 
                 Console.Write("Que número crees que es: ");
                 int numeroJugador = int.Parse(Console.ReadLine() ?? "0");
+
+                if(numeroJugador <= 0)
+                {
+                    Console.WriteLine("---------------");
+                    Console.WriteLine("No puede ser un número negativo");
+                    Console.WriteLine("---------------");
+                }
 
                 // Comprobemos si ha ganado o ha perdido la ronda
                 if (numeroJugador == numeroSecreto)
@@ -77,6 +95,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
                     Console.WriteLine("Incorrecto, has fallado adivinando el número.");
                     numeroIntentos--;
                     Console.WriteLine("Te quedan " + numeroIntentos + " intento(s).");
+
+                    if (numeroIntentos == 0)
+                    {
+                        intentosCorrecto = false;
+                    }
 
                     numeroTemporal = numeroJugador;
                     Console.WriteLine("Además, no puedes volver a elegir el " + numeroTemporal + ", o si no, se termina el juego.");

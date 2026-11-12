@@ -1,17 +1,7 @@
-﻿//  Programacion y motores con Salva
-//
-//
-//
-//
-//
-//
-//  MOTORES VIDEOJUEGOS: MINIJUEGOS
-//
-//  Ejercicios clase 21_10_26
-//
+﻿
 using System;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace MyApp
 {
     internal class BlackJack
     {
@@ -23,216 +13,222 @@ namespace MyApp // Note: actual namespace depends on the project name.
             int numRonda = 1;
             int puntosIA = 0;
             int puntosJugador = 0;
+
             bool iniciamosPartida = false;
             bool plantadoIA = false;
             bool plantadoJugador = false;
-            bool seguimosTirando = false;
-            bool opcionCorrecta = false;
-            
-            Console.WriteLine();
-            Console.WriteLine("Inteligencia Artificial: Bienvenido al Black Jack por terminal, cada ronda tiraremos un dado de seis caras y el que se acerque más a 21 puntos gana.");
+            bool seguimosTirando = true;
 
-            // Comprobemos si iniciamos la partida correctamente
+            Random numeroAleatorio = new Random();
+
+            Console.WriteLine("Bienvenido al BlackJack por terminal.");
+            Console.WriteLine("Cada ronda tiraremos un dado de seis caras.");
+            Console.WriteLine("El que se acerque más a 21 puntos sin pasarse gana.");
+
+            // Comprobamos si iniciamos la partida
             do
             {
-                Console.Write("¿Deseas iniciar la partida?  1) Sí    2) No: ");
-                opcionIniciamos = int.Parse(Console.ReadLine() ?? "0");
-                Console.WriteLine();
+                Console.Write("¿Deseas iniciar la partida? 1) Sí  2) No: ");
 
-                if(opcionIniciamos == 1)
+                if (!int.TryParse(Console.ReadLine(), out opcionIniciamos))
+                {
+                    opcionIniciamos = 0;
+                }
+
+                if (opcionIniciamos == 1)
                 {
                     Console.WriteLine("Iniciando partida...");
                     iniciamosPartida = true;
                 }
-                else if(opcionIniciamos == 2)
+                else if (opcionIniciamos == 2)
                 {
-                    Console.WriteLine("No la inciamos.");
+                    Console.WriteLine("No iniciamos la partida.");
+                    return;
                 }
                 else
                 {
-                    Console.WriteLine("Error introduciendo opción, intentalo otra vez.");
+                    Console.WriteLine("Opción incorrecta.");
                 }
-            }while(iniciamosPartida == false);
+
+            } while (iniciamosPartida == false);
 
             // Iniciamos partida
-            while(iniciamosPartida == true)
+            while (iniciamosPartida == true)
             {
-                // Aquí empiezan las rondas
                 do
                 {
-                    // Comprobamos al princípio de la ronda que no se hayan plantado los jugadores en la ronda anterior.
-                    if((plantadoJugador == true && puntosJugador > puntosIA) || (plantadoIA == true && puntosIA > puntosJugador))
-                    {
-                        seguimosTirando = false;
-                    }
-
                     Console.WriteLine();
                     Console.WriteLine("----------");
-                    Console.WriteLine("Hemos iniciado la "+ numRonda + "ª ronda");
-                    Console.WriteLine();
+                    Console.WriteLine("Ronda " + numRonda);
                     Console.WriteLine("----------");
 
-                    Random numeroAleatorio = new Random();
-                    if(plantadoIA == false)
+                    // Tirada de la IA
+                    if (plantadoIA == false)
                     {
-                        int tiradaIA = numeroAleatorio.Next(1,7);
-                        // Debug para mostrar los puntos de la IA
-                        //Console.WriteLine("La IA a sacado un: " + tiradaIA);
-                        puntosIA = puntosIA + tiradaIA;
+                        int tiradaIA = numeroAleatorio.Next(1, 7);
+                        puntosIA += tiradaIA;
+
+                        // Debug
+                        // Console.WriteLine("La IA ha sacado: " + tiradaIA);
                     }
                     else
                     {
                         Console.WriteLine("La IA está plantada.");
                     }
 
-                    if(plantadoJugador == false)
+                    // Tirada del jugador
+                    if (plantadoJugador == false)
                     {
-                        int tiradaJugador = numeroAleatorio.Next(1,7);
-                        Console.WriteLine("El jugador ha sacado un: " + tiradaJugador);
+                        int tiradaJugador = numeroAleatorio.Next(1, 7);
+                        Console.WriteLine("El jugador ha sacado: " + tiradaJugador);
 
-                        // EXTRA Bonificador de tirada
-                        if(tiradaJugador == 1)
+                        // Bonificador
+                        if (tiradaJugador == 1)
                         {
-                            Console.WriteLine("!EXTRA! Al sacar un 1 puedes usar un comodín y cambiar la tirada por un 6");
-                            Console.Write("¿Quieres usarlo?   1) Sí   2) No: ");
-                            opcionBonificador = int.Parse(Console.ReadLine() ?? "0");
-                            Console.WriteLine();
+                            Console.WriteLine("¡EXTRA! Puedes cambiar el 1 por un 6.");
+                            Console.Write("¿Quieres usarlo? 1) Sí  2) No: ");
 
-                            if(opcionBonificador == 1)
+                            if (!int.TryParse(Console.ReadLine(), out opcionBonificador))
                             {
-                                Console.WriteLine("Bonificador usado, tirada cambiada por 6");
+                                opcionBonificador = 0;
+                            }
+
+                            if (opcionBonificador == 1)
+                            {
+                                Console.WriteLine("Bonificador utilizado.");
                                 tiradaJugador = 6;
                             }
                             else
                             {
-                                Console.WriteLine("Perdiste la oportunidad.");
+                                Console.WriteLine("No has utilizado el bonificador.");
                             }
                         }
-                        puntosJugador = puntosJugador + tiradaJugador;
+
+                        puntosJugador += tiradaJugador;
                     }
                     else
                     {
                         Console.WriteLine("El jugador está plantado.");
                     }
 
-                    if(plantadoIA == true && plantadoJugador == true)
+                    Console.WriteLine();
+                    Console.WriteLine("Puntos del jugador: " + puntosJugador);
+
+                    // COMPROBAMOS SI ALGUIEN SE HA PASADO
+                    if (puntosJugador > 21)
                     {
+                        Console.WriteLine("¡El jugador se ha pasado de 21!");
                         seguimosTirando = false;
+                        break;
                     }
 
-                    Console.WriteLine();
-                    Console.WriteLine("----------");
-                    // Debug para mostrar puntos de la IA
-                    //Console.WriteLine("Puntos totales de la IA: " + puntosIA);
-                    Console.WriteLine("Puntos totales del jugador: " + puntosJugador);
-                    Console.WriteLine();
-                    
-                    if(plantadoJugador == false)
+                    if (puntosIA > 21)
                     {
-                        Console.Write("¿Sigues o te plantas? 1) Sigues 2) Te plantas: ");
-                        opcionTiramos = int.Parse(Console.ReadLine() ?? "0");
-                        Console.WriteLine();   
+                        Console.WriteLine("¡La IA se ha pasado de 21!");
+                        seguimosTirando = false;
+                        break;
+                    }
+
+                    // Comprobamos si alguien ha llegado a 21
+                    if (puntosJugador == 21 || puntosIA == 21)
+                    {
+                        Console.WriteLine("¡Se han alcanzado los 21 puntos!");
+                        seguimosTirando = false;
+                        break;
                     }
 
                     // Comportamiento de la IA
-                    if (puntosIA == 21)
+                    if (puntosIA > 15 && plantadoIA == false)
                     {
-                        seguimosTirando = false;
-                    }
-                    else if(puntosIA > 15)
-                    {
-                        Console.WriteLine();
-                        Console.WriteLine("----------");
                         Console.WriteLine("La IA está plantada...");
                         plantadoIA = true;
                     }
-                    else
+                    else if (plantadoIA == false)
                     {
-                        Console.WriteLine();
                         Console.WriteLine("La IA sigue...");
-                        seguimosTirando = true;
                     }
 
-                    // Condiciones del jugador que terminan directamente la partida
-                    if(puntosJugador > 21)
+                    // Decisión del jugador
+                    if (plantadoJugador == false)
                     {
-                        Console.WriteLine();
-                        Console.WriteLine("El jugador se ha pasado");
-                        seguimosTirando = false;
-                    }
-                    else if(puntosJugador == 21)
-                    {
-                        seguimosTirando = false;
-                    }
+                        bool opcionCorrecta = false;
 
-                    if(opcionTiramos == 1)
-                    {
-                        Console.WriteLine();
-                        Console.WriteLine("----------");
-                        Console.WriteLine("Siguiente ronda...");
-                        seguimosTirando = true;
-                    }
-                    else if(opcionTiramos == 2)
-                    {
-                        Console.WriteLine("Estás plantado...");
-                        plantadoJugador = true;
-                    }
-                    else
-                    {
-                        // Bucle para asegurar la opcion dentro del rango deseado
-                        while(opcionCorrecta == false)
+                        do
                         {
-                            Console.WriteLine("Error introduciendo opción, intentalo otra vez.");
-                            Console.WriteLine();
-                            Console.Write("¿Sigues o te plantas? 1) Sigues 2) Te plantas: ");
-                            opcionTiramos = int.Parse(Console.ReadLine() ?? "0");
+                            Console.Write("¿Sigues o te plantas? 1) Sigues  2) Te plantas: ");
 
-                            if(opcionTiramos == 1)
+                            if (!int.TryParse(Console.ReadLine(), out opcionTiramos))
                             {
-                                Console.WriteLine();
-                                Console.WriteLine("----------");
-                                Console.WriteLine("Siguiente ronda...");
-                                plantadoJugador = false;
-                                opcionCorrecta = true;
-                                seguimosTirando = true;
+                                opcionTiramos = 0;
                             }
-                            else if(opcionTiramos == 2)
+
+                            if (opcionTiramos == 1)
+                            {
+                                Console.WriteLine("Siguiente ronda...");
+                                opcionCorrecta = true;
+                            }
+                            else if (opcionTiramos == 2)
                             {
                                 Console.WriteLine("Estás plantado...");
                                 plantadoJugador = true;
+                                opcionCorrecta = true;
                             }
-                        }
+                            else
+                            {
+                                Console.WriteLine("Opción incorrecta.");
+                            }
+
+                        } while (opcionCorrecta == false);
                     }
+
+                    // Si ambos están plantados, termina la partida
+                    if (plantadoJugador == true && plantadoIA == true)
+                    {
+                        Console.WriteLine("Ambos jugadores están plantados.");
+                        seguimosTirando = false;
+                    }
+
                     numRonda++;
+
                 } while (seguimosTirando == true);
 
-                // Forzamos fin de la partida.
                 iniciamosPartida = false;
             }
 
-                // Comprobamos los resultados al finalizar partida
-                Console.WriteLine("----------");
-                Console.WriteLine("Calculando resultados...");
-                Console.WriteLine("Puntos totales de la IA: " + puntosIA);
-                Console.WriteLine("Puntos totales del jugador: " + puntosJugador);
-                Console.WriteLine("----------");
-                Console.WriteLine();
+            // Resultados finales
+            Console.WriteLine();
+            Console.WriteLine("----------");
+            Console.WriteLine("Calculando resultados...");
+            Console.WriteLine("Puntos de la IA: " + puntosIA);
+            Console.WriteLine("Puntos del jugador: " + puntosJugador);
+            Console.WriteLine("----------");
 
-                // Resultado final
-                Console.WriteLine("----------");
-                if(puntosIA > puntosJugador && puntosIA <= 21)
-                {
-                    Console.WriteLine("Has perdido!");
-                }
-                else if(puntosJugador > puntosIA && puntosJugador <= 21)
-                {
-                    Console.WriteLine("Me has ganado!");
-                }
-                else
-                {
-                    Console.WriteLine("Tenemos empate!");
-                }
-                Console.WriteLine("----------");
+            if (puntosJugador > 21 && puntosIA > 21)
+            {
+                Console.WriteLine("¡Ambos os habéis pasado! Empate.");
+            }
+            else if (puntosJugador > 21)
+            {
+                Console.WriteLine("¡Has perdido! Te has pasado de 21.");
+            }
+            else if (puntosIA > 21)
+            {
+                Console.WriteLine("¡Has ganado! La IA se ha pasado.");
+            }
+            else if (puntosJugador > puntosIA)
+            {
+                Console.WriteLine("¡Has ganado!");
+            }
+            else if (puntosIA > puntosJugador)
+            {
+                Console.WriteLine("¡Has perdido!");
+            }
+            else
+            {
+                Console.WriteLine("¡Empate!");
+            }
+
+            Console.WriteLine("----------");
         }
     }
 }

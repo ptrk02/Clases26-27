@@ -7,7 +7,8 @@
 // 11/11/2026
 // El segundo (rojo) destruye todas las esferas que tengan el TAG enemigo.
 //
-// Foro de referencia: https://discussions.unity.com/t/editor-script-how-to-clear-the-console-output-window/1161
+// Foro de referencia: 
+// https://discussions.unity.com/t/editor-script-how-to-clear-the-console-output-window/1161
 //
 using System;
 using UnityEngine;
@@ -18,14 +19,17 @@ public class BorraInstanciasTag : MonoBehaviour
 {
     void OnMouseDown()
     {
-        foreach (GameObject enemigo in GameObject.FindGameObjectsWithTag("Enemigo")) // Recorro todos los GamObjects con Flag de "Enemigo"
+        // Recorro todos los GamObjects con Flag de "Enemigo"
+        foreach (GameObject enemigo in GameObject.FindGameObjectsWithTag("Enemigo"))
         {
             Destroy(enemigo); // Destroy() borra del hierarchy el objeto (solo en Play Mode)
             ClearLog(); // Borra el debug log *Mejora estética*
         }
     }
 
-    void ClearLog() // Función sacada de un foro de discusión. Útil para convertir en snippet, usa varias dependencias para funcionar...
+    // Función sacada de un foro de discusión. Útil para convertir en snippet,
+    // usa varias dependencias para funcionar...
+    void ClearLog()
     {
         Assembly assembly = Assembly.GetAssembly(typeof(SceneView));
 

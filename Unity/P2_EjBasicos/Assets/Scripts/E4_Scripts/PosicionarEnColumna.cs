@@ -5,7 +5,8 @@
 //
 //
 // 11/11/2026
-// El segundo (botón verde COLUMNA) hace lo mismo, pero colocando los hijos en columna.
+// El segundo (botón verde COLUMNA) hace lo mismo,
+// pero colocando los hijos en columna.
 //
 //
 using UnityEngine;
@@ -28,7 +29,8 @@ public class PosicionarEnColumna : MonoBehaviour
 
     void OnMouseDown()
     {
-        int cantidadHijos = contenedor.transform.childCount; // Conseguir numero de hijos
+        // Conseguir numero de hijos
+        int cantidadHijos = contenedor.transform.childCount;
 
         // Calcular el espacio total necesario
         float longitudColumna = (cantidadHijos - 1) * separacion;
@@ -37,7 +39,8 @@ public class PosicionarEnColumna : MonoBehaviour
         float posX = Random.Range(minX, maxX);
         float posZ = Random.Range(minZ, maxZ - longitudColumna);
 
-        for (int i = 0; i < cantidadHijos; i++) // Colocar cada hijo en fila a partir del primero
+        // Colocar cada hijo en fila a partir del primero
+        for (int i = 0; i < cantidadHijos; i++)
         {
             Transform hijo = contenedor.transform.GetChild(i);
 

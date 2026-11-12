@@ -5,15 +5,19 @@
 //
 //
 // 11/11/2026
-// El primero instancia N monedas (a partir del prefab) en posiciones aleatorias dentro del área definida. El valor de N debe poder modificarse desde el Inspector.
+// El primero instancia N monedas (a partir del prefab) en posiciones aleatorias 
+// dentro del área definida. El valor de N debe poder modificarse desde el Inspector.
 //
 //
 using UnityEngine;
 
 public class InstanciaMonedas : MonoBehaviour
 {
-    [SerializeField] GameObject prefabMoneda; // [SerializeField] para ser editable desde el inspector
-    [SerializeField] int cantidadMonedas = 1; // N monedas por cada clic, puede ser cualquiera
+    // [SerializeField] para ser editable desde el inspector
+    [SerializeField] GameObject prefabMoneda;
+    
+    // N monedas por cada clic, puede ser cualquiera
+    [SerializeField] int cantidadMonedas = 1;
         
     GameObject contenedor;
 
@@ -23,7 +27,8 @@ public class InstanciaMonedas : MonoBehaviour
     float minZ = -2.5f;
     float maxZ = 2.5f;
 
-    float altura = 0.085f; // Altura donde es visible, no varia entre instancias
+    // Altura donde es visible, no varia entre instancias
+    float altura = 0.085f;
 
     void Start()
     {
@@ -32,14 +37,17 @@ public class InstanciaMonedas : MonoBehaviour
 
     void OnMouseDown()
     {
-        for (int i = 0; i < cantidadMonedas; i++) // Bucle para instanciar cada moneda
+        // Bucle para instanciar cada moneda
+        for (int i = 0; i < cantidadMonedas; i++)
         {
             float posX = Random.Range(minX, maxX);
             float posZ = Random.Range(minZ, maxZ);
 
             Vector3 posicion = new Vector3(posX, altura, posZ);
 
-            Instantiate(prefabMoneda, posicion, Quaternion.identity, contenedor.transform); // Instantiate coge cuatro parámetros (objeto a instanciar, lugar donde ponerlo, rotación para asignarle y padre al que va a generar los hijos)
+            // Instantiate coge cuatro parámetros (objeto a instanciar, lugar donde ponerlo,
+            // rotación para asignarle y padre al que va a generar los hijos)
+            Instantiate(prefabMoneda, posicion, Quaternion.identity, contenedor.transform);
         }
     }
 }

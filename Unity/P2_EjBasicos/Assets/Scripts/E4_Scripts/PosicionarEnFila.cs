@@ -5,7 +5,9 @@
 //
 //
 // 11/11/2026
-// El primero (botón rojo FILA) calcula una posición aleatoria y válida para el primer hijo y coloca el resto de hijos en fila (uno a continuación del otro, con una separación fija entre ellos).
+// El primero (botón rojo FILA) calcula una posición aleatoria 
+// y válida para el primer hijo y coloca el resto de hijos en fila 
+// (uno a continuación del otro, con una separación fija entre ellos).
 //
 //
 using UnityEngine;
@@ -20,7 +22,8 @@ public class PosicionarEnFila : MonoBehaviour
     float minZ = -8f;
     float maxZ = 8f;
 
-    float separacion = 1.25f; // Puede ser cualquiera, pero esta queda bien
+    // Puede ser cualquiera, pero esta queda bien
+    float separacion = 1.25f;
 
     void Start()
     {
@@ -29,7 +32,8 @@ public class PosicionarEnFila : MonoBehaviour
 
     void OnMouseDown()
     {
-        int cantidadHijos = contenedor.transform.childCount; // Conseguir numero de hijos
+        // Conseguir numero de hijos
+        int cantidadHijos = contenedor.transform.childCount;
 
         // Calcular el espacio total necesario
         float longitudFila = (cantidadHijos - 1) * separacion;

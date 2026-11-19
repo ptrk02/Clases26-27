@@ -16,7 +16,7 @@ El Misterio del Laboratorio Abandonado
 Desciendes por una escalera oxidada.
 Al fondo observas dos caminos.
 [[Entrar en el laboratorio]]
-[[Seguir un túnel oscuro]] 
+[[Seguir un túnel oscuro]]
 
 
 :: Activar una máquina extraña {"position":"100,900","size":"100,200"}
@@ -25,53 +25,71 @@ Todo queda destruido.
 FIN
 
 
-:: Encuentras una habitación secreta {"position":"100,600","size":"100,200"}
-La habitación es oscura y tiene un hueco por el que caes y te matas.
-FIN
-(if: $tarjeta is true)[La puerta se abre.]
-(else:)[La puerta permanece cerrada.] 
-
-
 :: Entrar en el laboratorio {"position":"300,700","size":"100,100"}
 Encuentras ordenadores antiguos todavía funcionando.
 ¿Qué investigas?
 [[Leer los informes]]
 [[Activar una máquina extraña]] 
-[[Encuentras una habitación secreta]]
+[[Hay una tarjeta en la mesa]]
+[[Hay una puerta grande con un lector de tarjeta a un lado]]
+
+
+:: Entras a una habitación secreta {"position":"100,500","size":"100,100"}
+La habitación es oscura y tiene un hueco por el que caes y te matas.
+FIN
+
 
 
 :: Forzar la puerta {"position":"600,1000","size":"100,100"}
 La puerta se abre.
 Detrás encuentras documentos clasificados.
-[[Leer los informes]] 
+[[Leer los informes]]
+
+
+:: Hay una puerta grande con un lector de tarjeta a un lado {"position":"100,700","size":"100,100"}
+Parece que la puerta solo se puede abrir con la tarjeta
+[[Entrar en el laboratorio]]
+
+(if: $tarjeta is true)[
+    (link-goto: "Pasas la tarjeta por el lector y entras a la habitación", "Entras a una habitación secreta")
+]
+(else:)[
+    La puerta está cerrada.
+]
+
+
+:: Hay una tarjeta en la mesa {"position":"425,825","size":"100,100"}
+Te llevas la tarjeta contigo
+(set: $tarjeta to true)
+[[Entrar en el laboratorio]] 
 
 
 :: Ignorarla y volver a casa {"position":"800,400","size":"100,200"}
 Decides no correr riesgos.
 unca descubres el misterio.
-FIN 
+FIN
 
 
 :: Inicio {"position":"300,400","size":"200,200"}
 Después de clase encuentras una trampilla oculta en el sótano del instituto.
 ¿Qué haces?
 [[Abrir la trampilla]]
-[[Ignorarla y volver a casa]] 
+[[Ignorarla y volver a casa]]
 
 
 :: Leer los informes {"position":"300,900","size":"100,200"}
 Descubres que el laboratorio desarrollaba una tecnología revolucionaria.
 Publicas tu descubrimiento.
-FIN 
+FIN
 
 
 :: Regresar {"position":"800,1000","size":"100,100"}
 Vuelves al punto de partida.
-[[Entrar en el laboratorio]] 
+[[Entrar en el laboratorio]]
 
 
 :: Seguir un túnel oscuro {"position":"800,700","size":"100,100"}
 El túnel conduce a una cámara secreta.
 Observas una puerta metálica cerrada.
 [[Forzar la puerta]]
-[[Regresar]] 
+[[Regresar]]

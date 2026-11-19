@@ -1,0 +1,77 @@
+:: StoryTitle
+El Misterio del Laboratorio Abandonado
+
+
+:: StoryData
+{
+  "ifid": "8FA0E179-FBE0-41C2-8F1A-C2EE9C5BC36D",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Inicio",
+  "zoom": 1
+}
+
+
+:: Abrir la trampilla {"position":"600,600","size":"100,100"}
+Desciendes por una escalera oxidada.
+Al fondo observas dos caminos.
+[[Entrar en el laboratorio]]
+[[Seguir un túnel oscuro]] 
+
+
+:: Activar una máquina extraña {"position":"100,900","size":"100,200"}
+La máquina se pone en marcha y produce una explosión.
+Todo queda destruido.
+FIN
+
+
+:: Encuentras una habitación secreta {"position":"100,600","size":"100,200"}
+La habitación es oscura y tiene un hueco por el que caes y te matas.
+FIN
+(if: $tarjeta is true)[La puerta se abre.]
+(else:)[La puerta permanece cerrada.] 
+
+
+:: Entrar en el laboratorio {"position":"300,700","size":"100,100"}
+Encuentras ordenadores antiguos todavía funcionando.
+¿Qué investigas?
+[[Leer los informes]]
+[[Activar una máquina extraña]] 
+[[Encuentras una habitación secreta]]
+
+
+:: Forzar la puerta {"position":"600,1000","size":"100,100"}
+La puerta se abre.
+Detrás encuentras documentos clasificados.
+[[Leer los informes]] 
+
+
+:: Ignorarla y volver a casa {"position":"800,400","size":"100,200"}
+Decides no correr riesgos.
+unca descubres el misterio.
+FIN 
+
+
+:: Inicio {"position":"300,400","size":"200,200"}
+Después de clase encuentras una trampilla oculta en el sótano del instituto.
+¿Qué haces?
+[[Abrir la trampilla]]
+[[Ignorarla y volver a casa]] 
+
+
+:: Leer los informes {"position":"300,900","size":"100,200"}
+Descubres que el laboratorio desarrollaba una tecnología revolucionaria.
+Publicas tu descubrimiento.
+FIN 
+
+
+:: Regresar {"position":"800,1000","size":"100,100"}
+Vuelves al punto de partida.
+[[Entrar en el laboratorio]] 
+
+
+:: Seguir un túnel oscuro {"position":"800,700","size":"100,100"}
+El túnel conduce a una cámara secreta.
+Observas una puerta metálica cerrada.
+[[Forzar la puerta]]
+[[Regresar]] 
